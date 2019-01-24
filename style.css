@@ -4,6 +4,30 @@ background-color: grey;
 padding: 20px;
 }
 
-html{
-  background-color: cyan;
+body{
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+  background-image: url('joanna-kosinska-129039-unsplash.jpg');
+}
+ul,ol {
+  color: black;
+}
+.header{
+  height: 200px;
+  padding-right: 600px;
+}
+.header img {
+  float: right;
+  width: 200px;
+  height: 200px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.header h1 {
+  position: relative;
+  top: 18px;
+  left: 10px;
 }
