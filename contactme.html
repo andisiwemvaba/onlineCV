@@ -1,2 +1,65 @@
-<h1>Test one</h1>
-<a href="index.html" type="button">Contact Me</a>
+
+<html>
+<head>
+  <title>Mvaba Andisiwe Contact Me</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+</head>
+<body class="page2">
+<div class="contactmeContainer">
+  <h1>Contact.Me</h1>
+  <a href="index.html" type="button">Back</a>
+
+  <div class="container">
+  <form action="/action_page.php">
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">First Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="country">Country</label>
+      </div>
+      <div class="col-75">
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="country">Budget</label>
+      </div>
+      <div class="col-50">
+        <input type="text" id="amount" name="amount">
+      </div>
+      <div class="col-25">
+        <select id="curreny" name="curreny">
+          <option value="ZAR">ZAR</option>
+          <option value="USD">USD</option>
+          <option value="EUR">EUR</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="country">Services</label>
+      </div>
+      <div class="col-75">
+        ADD Check group for Services
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+  </form>
+</div>
+</div>
+</body>
+</html>
